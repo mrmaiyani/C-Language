@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<conio.h>
-void rev(int x[],int si,int ei){
+void rev(int x[],int si,int ei){  //int si = starting index and ei = ending index
     for(int i = si,j = ei;i<j;i++,j--){
         int temp = x[i];
         x[i]= x[j];
